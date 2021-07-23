@@ -2241,9 +2241,12 @@ less $pid.log
 
 - wait/notify 是 Object 类的方法，而 sleep 是 Thread 类的方法。
 
+	
+#### **5、start和run区别**
+  start 会自己创建新线程并执行，run是直接在主线程中被调用
   
 
-#### 5、创建线程方式
+#### 6、创建线程方式
 
 **实现 Runnable 接口**（优先使用）
 
